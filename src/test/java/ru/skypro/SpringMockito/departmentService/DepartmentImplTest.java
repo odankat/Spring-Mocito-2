@@ -59,7 +59,7 @@ class DepartmentImplTest {
     @Test
     void correctGroupDepartment() {
         Map<Integer, List<Employee>> expected = new HashMap<>() {{
-            put(1, List.of(employeeList.get(2), employeeList.get(1), employeeList.get(1)));
+            put(1, List.of(employeeList.get(2), employeeList.get(1), employeeList.get(0)));
             put(2, List.of(employeeList.get(4), employeeList.get(3)));
             put(3, List.of(employeeList.get(5), employeeList.get(6)));
         }};
